@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  /* background-color: rgb(132, 61, 66); */
+  background-color: rgb(133, 198, 192)
+}
+
+.nameTitle {
+  padding-bottom: 10px;
+}
+
+.nav {
+  padding-top: 20px;
+}
+
+body {
+  background-color: rgb(132, 61, 65);
+}
+
+h1, h3 {
+  /* color: rgb(133, 198, 192) */
+  color: rgb(132, 61, 65);
+  font-family: 'Courier New', Courier, monospace;
+}
+a, small {
+  color: rgb(133, 198, 192);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  border: 2px solid rgb(133, 198, 192);
+  border-radius: 20%;
+  padding: 10px;
+}
+
+a:hover {
+  background: rgb(133, 198, 192);
+  /* background: rgba(0,0,0,0); */
+  color:  rgb(132, 61, 65);
+  box-shadow: inset 0 0 0 3px  rgb(132, 61, 65);
+}
+
+.logo {
+  height: 300px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 5px;
+}
+
